@@ -53,10 +53,10 @@ Redirect client to configured address with configured HTTP status.
 ##### 2. General requirements
 -	Use Java programing language
 -	Pay attention that response HTTP statuses are according to REST standards (list of statuses http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
-- Service has to be written as executable jar or as war and delivered as such. Application must not require any additional configuration, that is, it must not contain any external dependencies. It must work on first run.
+- Application must not require any additional configuration, that is, it must not contain any external dependencies. It must work on first run.
 - According to previous request, it is not allowed to use databases, unless they are embedded in application itself.
 - Create help page `(uri: /help)` containing run, setup and use instructions
-- Deliver source cod preferably as maven project
+- Deliver source code preferably as maven project
 
 ### Solution
 
